@@ -6,7 +6,7 @@
     <title>Mensaje Recibido con exíto</title>
 </head>
 <body>
-    <p>Hola!</p>
+    <p>Hola!{{ $contact->name }}</p>
     <p>mensaje recibido:</p>
 </body>
 </html>

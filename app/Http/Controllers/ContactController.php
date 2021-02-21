@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-//use App\Contact;
+use App\Contact;
 use App\Mail\SendContact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -38,7 +38,7 @@ class ContactController extends Controller
      *                     property="message",
      *                     type="string"
      *                 ),
-     *                 example={"name": "betox", "email": "alberto.urbaez@25watts.com.ar","phone": "3435411789", "message":"Test de envio de email"}
+     *                 example={"name": "betox", "email": "nelsonfercher@gmail.com","phone": "3435411789", "message":"Test de envio de email"}
      *             )
      *         )
      *     ),
