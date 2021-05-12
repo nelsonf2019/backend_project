@@ -97,7 +97,7 @@ class ContactController extends Controller
         {
 
             $data['contacts'] = Contact::paginate(5); //Nuestra la cantidad de registros por paginas
-            return view("Contact.index", $data); //Le pasamos la vista data
+            return view("contact.index", $data); //Le pasamos la vista data
 
            // $data['contacts'] = Contact::paginate(); // 5= registros por pagina
             //Contact: es el modelo de la tabla creada con model
