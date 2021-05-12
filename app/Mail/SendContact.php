@@ -18,6 +18,7 @@ class SendContact extends Mailable
      *
      * @return void
      */
+
     public function __construct(Contact $contact)
     {
         $this->contact = $contact;

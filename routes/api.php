@@ -25,6 +25,9 @@ Route::group(['prefix' => 'category'], function () {
 });
 
 //Route::group (['post', PostController])
+
+
 Route::group(['prefix' => 'contact'], function () {
-    Route::post('store', 'ContactController@store');
+    Route::get('list', 'ContactController@list');
+    Route::post('store', 'ContactController@store'); // en este caso store hace de create
 });

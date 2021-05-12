@@ -18,10 +18,12 @@ Route::get('/', function () {
 })->name('home');
 
 Route::resource('post', 'PostController');
+Route::resource('contacts', 'ContactController'); // aca estan los rutamientos para llamar a los metodos
 Route::group(['prefix' => 'post'], function(){
     //En sector creamos toas las vistas que necesitemas
     //tal cual como se ve la opcion de busqueda
     Route::post('search', 'PostController@search')->name('post.search');
+
 
 });
 /*post es un identificador*/

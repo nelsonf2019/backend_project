@@ -20,9 +20,10 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
+        //Data es una variable que va contener los datos de la base de dato
+        //Mostramos los datos en una tabla de 5 registro por páginas
         $data['posts'] = Post::paginate(5); //Nuestra la cantidad de registros por paginas
-        return view("post.index", $data);
+        return view("post.index", $data); //Le pasamos la vista data
 
     }
 

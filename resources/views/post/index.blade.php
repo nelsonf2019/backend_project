@@ -25,7 +25,7 @@
        <head>
            <tr>
                 <th>{{"ID"}}</th>
-                <TH>{{"CATEGORIA"}}</TH>
+                <th>{{"CATEGORIA"}}</th>
                 <th>{{"IMAGEN"}}</th>
                <th>{{"TITLE"}}</th>
                <th>{{"AUTHOR"}}</th>

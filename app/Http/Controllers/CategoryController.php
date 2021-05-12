@@ -68,7 +68,7 @@ class CategoryController extends Controller
         $category->name = $request->name;
         $category->description = $request->description;
         $category->save();
-        return response()->json("la informacion se guador con exito", 201);
+        return response()->json("la informacion se guardo con exito", 201);
     }
 
 

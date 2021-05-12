@@ -10,7 +10,7 @@
         }
     ],
     "paths": {
-        "/api/contact/store": {
+        "/api/Contact/store": {
             "post": {
                 "summary": "Guardar datos de contacto",
                 "operationId": "App\\Http\\Controllers\\ContactController::store",
@@ -35,8 +35,8 @@
                                 "type": "object",
                                 "example": {
                                     "name": "betox",
-                                    "email": "alberto.urbaez@25watts.com.ar",
-                                    "phone": "+54 9 351 370000",
+                                    "email": "nelsonfercher@gmail.com",
+                                    "phone": "3435411789",
                                     "message": "Test de envio de email"
                                 }
                             }

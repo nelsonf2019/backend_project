@@ -7,6 +7,9 @@
 </head>
 <body>
     <p>Hola!{{ $contact->name }}</p>
+    <p>telefono: {{ $contact->phone }}</p>
+    <p>telefono: {{ $contact->email }}</p>
+    <p>Mensanje: {{ $contact->message }}</p>
     <p>mensaje recibido:</p>
 </body>
 </html>
